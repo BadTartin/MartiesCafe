@@ -1,3 +1,5 @@
+import berriesImage from './noun-berries-2484585.svg';
+
 const menuPage = function() {
     
     //    factory function to make menu items?

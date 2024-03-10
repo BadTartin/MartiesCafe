@@ -16,7 +16,8 @@ const menuPage = function() {
     // appetizers
     const apps_left = document.createElement('div');
     const apps_left_img = document.createElement('img');
-    apps_left_img.src = 'noun-berries-2484585.svg';
+    // apps_left_img.src = 'noun-berries-2484585.svg';
+    apps_left_img.src = berriesImage;
     apps_left_img.width = 50;
     apps_left.appendChild(apps_left_img);
     apps_left.classList.add('menu_item', 'title_left');

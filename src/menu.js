@@ -1,4 +1,6 @@
 import berriesImage from './noun-berries-2484585.svg';
+import dogBowlImage from './noun-dog-bowl-3625676.svg';
+import drinkBowlImage from './noun-dog-bowl-1110108.svg';
 
 const menuPage = function() {
     
@@ -67,7 +69,7 @@ const menuPage = function() {
 
     const mains_left = document.createElement('div');
     const mains_left_img = document.createElement('img');
-    mains_left_img.src = 'noun-dog-bowl-3625676.svg';
+    mains_left_img.src = dogBowlImage;
     mains_left_img.width = 50;
     mains_left.appendChild(mains_left_img);
     mains_left.classList.add('menu_item', 'title_left');
@@ -80,7 +82,7 @@ const menuPage = function() {
 
     const mains_right = document.createElement('div');
     const mains_right_img = document.createElement('img');
-    mains_right_img.src = 'noun-dog-bowl-3625676.svg';
+    mains_right_img.src = dogBowlImage;
     mains_right_img.width = 50;
     mains_right.appendChild(mains_right_img);
     mains_right.classList.add('menu_item');
@@ -114,7 +116,7 @@ const menuPage = function() {
 
     const drinks_left = document.createElement('div');
     const drinks_left_img = document.createElement('img');
-    drinks_left_img.src = 'noun-dog-bowl-3625676.svg';
+    drinks_left_img.src = drinkBowlImage;
     drinks_left_img.width = 50;
     drinks_left.appendChild(drinks_left_img);
     drinks_left.classList.add('menu_item', 'title_left');
@@ -127,7 +129,7 @@ const menuPage = function() {
 
     const drinks_right = document.createElement('div');
     const drinks_right_img = document.createElement('img');
-    drinks_right_img.src = 'noun-dog-bowl-3625676.svg';
+    drinks_right_img.src = drinkBowlImage;
     drinks_right_img.width = 50;
     drinks_right.appendChild(drinks_right_img);
     drinks_right.classList.add('menu_item');
@@ -158,7 +160,7 @@ const menuPage = function() {
     menunav.classList.add('menu-navigation');
 
     const apps_img = document.createElement('img');
-    apps_img.src = 'noun-berries-2484585.svg';
+    apps_img.src = berriesImage;
     apps_img.width = 50;
 
     const apps_nav = document.createElement('div');
@@ -166,7 +168,7 @@ const menuPage = function() {
     menunav.appendChild(apps_nav);
     
     const mains_img = document.createElement('img');
-    mains_img.src = 'noun-dog-bowl-3625676.svg';
+    mains_img.src = dogBowlImage;
     mains_img.width = 50;
 
     const mains_nav = document.createElement('div');
@@ -175,7 +177,7 @@ const menuPage = function() {
 
     
     const drinks_img = document.createElement('img');
-    drinks_img.src = 'noun-dog-bowl-1110108.svg';
+    drinks_img.src = drinkBowlImage;
     drinks_img.width = 50;
 
     const drinks_nav = document.createElement('div');

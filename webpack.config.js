@@ -7,6 +7,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: 'images/[hash][ext][query]'
   },
   module: {
     rules: [
@@ -14,22 +15,22 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
-    //   {
-    //     test: /\.(png|svg|jpg|jpeg|gif)$/i,
-    //     type: 'asset/resource',
-    //   },
-    {
+      {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'images/',
-            },
-          },
-        ],
+        type: 'asset/resource',
       },
+    // {
+    //     test: /\.(png|svg|jpg|jpeg|gif)$/i,
+    //     use: [
+    //       {
+    //         loader: 'file-loader',
+    //         options: {
+    //           name: '[name].[hash].[ext]',
+    //           outputPath: 'images/',
+    //         },
+    //       },
+    //     ],
+    //   },
     ],
   },
   devtool: 'inline-source-map',

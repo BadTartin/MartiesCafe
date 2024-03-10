@@ -1,4 +1,4 @@
-// import berriesImage from './noun-berries-2484585.svg';
+import berriesImage from './noun-berries-2484585.svg';
 
 const menuPage = function() {
     
@@ -16,8 +16,8 @@ const menuPage = function() {
     // appetizers
     const apps_left = document.createElement('div');
     const apps_left_img = document.createElement('img');
-    apps_left_img.src = 'noun-berries-2484585.svg';
-    // apps_left_img.src = berriesImage;
+    // apps_left_img.src = 'noun-berries-2484585.svg';
+    apps_left_img.src = berriesImage;
     apps_left_img.width = 50;
     apps_left.appendChild(apps_left_img);
     apps_left.classList.add('menu_item', 'title_left');
@@ -30,7 +30,8 @@ const menuPage = function() {
 
     const apps_right = document.createElement('div');
     const apps_right_img = document.createElement('img');
-    apps_right_img.src = 'noun-berries-2484585.svg';
+    // apps_right_img.src = 'noun-berries-2484585.svg';
+    apps_right_img.src = berriesImage;
     apps_right_img.width = 50;
     apps_right.appendChild(apps_right_img);
     apps_right.classList.add('menu_item');
